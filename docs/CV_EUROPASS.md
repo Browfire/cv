@@ -62,7 +62,7 @@ Desarrollador web especializado en Frontend, con más de cinco años de trayecto
 
 ---
 
-### NTT DATA - Clínica Alemana
+### NTT DATA
 
 **Fechas:** Enero 2021 hasta Marzo 2022
 **Profesión o cargo desempeñado:** Center Junior / Center Developer
@@ -95,7 +95,7 @@ Desarrollador web especializado en Frontend, con más de cinco años de trayecto
 
 ## Idiomas
 
-**Autoevaluación: Nivel europeo (*)**
+### Autoevaluación: Nivel europeo (*)
 
 | Idioma | Comprensión auditiva | Lectura | Interacción oral | Capacidad oral | Escritura |
 | :--- | :--- | :--- | :--- | :--- | :--- |

@@ -1,35 +1,38 @@
-# 🚀 My Developer Portfolio & Resume
+# My Developer Portfolio & Resume
 
-Este es mi rincón personal en la web, diseñado para mostrar mi trayectoria profesional, proyectos destacados y habilidades técnicas. Construido con un enfoque en **rendimiento**, **accesibilidad** y **código limpio**.
+CV y portfolio personal construido con un enfoque en **rendimiento**, **accesibilidad** y **código limpio**.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-* **Framework:** [Astro 5.0](https://astro.build/) (Static Site Generation)
+* **Framework:** [Astro 5](https://astro.build/) (Static Site Generation)
 * **Styling:** [Tailwind CSS 4](https://tailwindcss.com/) (vía plugin de Vite)
 * **Language:** [TypeScript](https://www.typescriptlang.org/) (modo estricto)
 * **Icons:** [Iconify](https://iconify.design/) / [Lucide](https://lucide.dev/)
 * **Deployment:** ...
 
-## ✨ Características Principales
+## Características Principales
 
-* ⚡ **Zero JS by default:** Arquitectura de Islas de Astro — JS solo donde la interactividad lo requiere.
-* 🌓 **Dark/Light Mode:** Clase `.dark` en `<html>`, sin dependencias externas.
-* 📱 **Mobile First:** Diseño totalmente responsivo.
-* 📂 **Content Collections:** Experiencia laboral, proyectos y educación en Markdown, tipados con Zod en `src/content/config.ts`.
-* ♿ **Accesibilidad:** Etiquetas ARIA correctas y contraste adecuado (A11y).
+* **Zero JS by default:** Arquitectura de Islas de Astro — JS solo donde la interactividad lo requiere.
+* **Dark/Light Mode:** Clase `.dark` en `<html>`, sin dependencias externas.
+* **Mobile First:** Diseño totalmente responsivo.
+* **Content Collections:** Experiencia laboral y educación en Markdown, tipados con Zod en `src/content/config.ts`.
+* **Accesibilidad:** Etiquetas ARIA correctas y contraste adecuado (A11y).
 
-## 🚀 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```text
 /
 ├── public/                  # Assets estáticos (PDF de CV, imágenes de perfil)
+├── docs/
+│   └── CV_EUROPASS.md       # CV en formato Europass (fuente de contenido)
 ├── src/
-│   ├── components/          # Componentes .astro reutilizables (Botones, Card, Navbar)
+│   ├── components/          # Componentes .astro reutilizables
 │   ├── content/
 │   │   ├── config.ts        # Esquemas Zod para Content Collections
-│   │   └── ...              # Archivos Markdown (experiencia, proyectos, educación)
+│   │   ├── experience/      # Experiencia laboral (Markdown)
+│   │   └── education/       # Educación y formación (Markdown)
 │   ├── layouts/             # Plantillas base de las páginas
 │   ├── pages/               # Rutas del sitio (index.astro, 404.astro)
 │   └── styles/
@@ -37,7 +40,7 @@ Este es mi rincón personal en la web, diseñado para mostrar mi trayectoria pro
 └── astro.config.mjs         # Configuración de Astro + Tailwind Vite plugin
 ```
 
-## 🧞 Comandos
+## Comandos
 
 | Comando                   | Acción                                                  |
 | :------------------------ | :------------------------------------------------------ |
@@ -49,7 +52,7 @@ Este es mi rincón personal en la web, diseñado para mostrar mi trayectoria pro
 
 ---
 
-## 📬 Contacto
+## Contacto
 
 * **Email:** <luis.ab.dev@gmail.com>
 * **LinkedIn:** [Luis Aguirre Bahamonde](https://www.linkedin.com/in/abluis/)
@@ -57,4 +60,4 @@ Este es mi rincón personal en la web, diseñado para mostrar mi trayectoria pro
 
 ---
 
-> *Hecho con ☕ y Astro por Luis Aguirre*
+> *Hecho con Astro por Luis Aguirre*
