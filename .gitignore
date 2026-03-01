@@ -1,24 +1,33 @@
-# build output
+# --- Dependencias ---
+node_modules/
 dist/
-# generated types
 .astro/
 
-# dependencies
-node_modules/
-
-# logs
+# --- Logs y Caché ---
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
+.pnpm-debug.log*
+.cache/
 
-
-# environment variables
+# --- Variables de Entorno ---
 .env
-.env.production
+*.env.local
+.env.*
+!.env.example
 
-# macOS-specific files
+# --- Archivos de Sistema / VS Code ---
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
 .DS_Store
+Thumbs.db
 
-# jetbrains setting folder
-.idea/
+# --- Pruebas / Cobertura ---
+coverage/
+.nyc_output/
+
+# --- Construcción y Temporales ---
+.vercel/
+.netlify/
+*.log
